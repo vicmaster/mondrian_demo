@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 
-gem 'haml'
+gem 'haml', '4.0.4'
 gem 'json'
 gem 'simple_form'
 
@@ -14,7 +14,7 @@ platforms :jruby do
 
   gem 'mondrian-olap', :git => 'git://github.com/rsim/mondrian-olap.git'
 
-  gem 'kirk', '~> 0.2.0.beta.7'
+  gem 'kirk'
 end
 
 group :development, :test do
